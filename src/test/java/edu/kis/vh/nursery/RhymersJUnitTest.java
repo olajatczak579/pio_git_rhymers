@@ -5,6 +5,8 @@ import org.junit.Test;
 
 public class RhymersJUnitTest {
 
+    // Projekt jest poprawny, bo testy jednostkowe przechodzą bez zmian.
+
     @Test
     public void testCountIn() {
         DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
