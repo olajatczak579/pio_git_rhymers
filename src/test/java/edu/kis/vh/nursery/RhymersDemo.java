@@ -18,6 +18,7 @@ class RhymersDemo {
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
                 factory.getFIFORhymer(), factory.getHanoiRhymer()};
         
+        // TODO: te liczby 15, 3 i 20 warto wynieść do stałych, żeby demo było czytelniejsze.
         for (int i = 1; i < 15; i++)
             for (int j = 0; j < 3; j++)
                 rhymers[j].countIn(i);

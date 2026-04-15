@@ -39,6 +39,8 @@ public class IntLinkedList {
      * @return zawsze false, bo lista jest dynamiczna
      */
     public boolean isFull() {
+        // TODO: jeśli ta lista ma mieć prawdziwe ograniczenie, to tutaj powinna być normalna implementacja.
+        // TODO: jeśli nie ma ograniczenia, to ta metoda jest właściwie zbędna.
         return false;
     }
 
